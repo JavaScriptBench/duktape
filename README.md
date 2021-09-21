@@ -1,6 +1,9 @@
 Duktape
 =======
 
+just  `make -f xxx`
+
+
 [![Build status](https://github.com/svaarala/duktape/workflows/Build/badge.svg?branch=master)](https://github.com/svaarala/duktape/actions)
 [![Test status](https://github.com/svaarala/duktape/workflows/Test/badge.svg?branch=master)](https://github.com/svaarala/duktape/actions)
 
