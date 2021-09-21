@@ -1,7 +1,15 @@
 Duktape
 =======
 
-just  `make -f xxx`
+just 
+
+```
+wget https://github.com/JavaScriptBench/duktape/archive/refs/tags/v2.6.0.zip
+tar -xvf duktape-2.6.0.tar.xz
+cd duktape-2.6.0/
+make -f  Makefile.cmdline
+./duk mandel.js
+```
 
 
 [![Build status](https://github.com/svaarala/duktape/workflows/Build/badge.svg?branch=master)](https://github.com/svaarala/duktape/actions)
