@@ -6,8 +6,8 @@ Duktape
 just 
 
 ```
-wget https://github.com/JavaScriptBench/duktape/archive/refs/tags/v2.6.0.zip
-tar -xvf duktape-2.6.0.tar.xz
+wget https://github.com/JavaScriptBench/duktape/archive/refs/tags/v2.6.0.zip --no-check-certificate
+unzip v2.6.0.zip
 cd duktape-2.6.0/
 make -f  Makefile.cmdline
 ./duk mandel.js
